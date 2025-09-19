@@ -1,0 +1,64 @@
+virtual machine :  it manage by hypervisor
+pwd : present working directory
+whoami : it shows user name
+date : it give date and year
+ls :  it shows present files and directories
+
+ls -l : it shows sorting and it gives details of all files
+clear : it clear the kernel
+cat filename :  it reads the files
+echo "hello" : it prints hello direct 
+touch filename: it creats file
+rm filename : it delete the file
+vi filename : it direct creats file and edit option 
+chmod filename : it which mod had the particular file
+
+nano filename : same as vi 
+mkdir  filename : it creats folder or directory
+rmdir foldername : it delete the folder or directory
+cd  : change path or come home 
+cd .. : it come back of one folder or file
+abosulaute path : it shows the starting to end thak or root directory 
+cp source destination : it copies 
+cp filename_copy_extention : it copies another one format 
+ex : cp harry_copy.txt 
+
+head -n filename : it shows only top n number lines
+tail -n filename  : it shows only below n number lines
+
+sort filename : it sorts the content 
+ex: acbge to  abceg
+
+cat file1 file2 > modify :  it addd two file to one modify file
+sort filename | uniq : it remove the duplicates
+
+split -l n filename :  it split and give another file
+grep "what you want search"  filename : it searches what you wrriten in double qoute
+
+egrep " 1|2" filename  :  it search multiple words 
+
+ls *.txt : its also call wildcard it shows all files of .txt
+
+touch file{1..10} : it creats 10 file under directory
+shuf f : it shuffle the order of lines
+cmp file11 file22 : it compare two files and give where he differ
+diff file11 file22:
+
+find ./ -name filename.txt :  it shows all txt files
+history : it shows recent used commands
+history grep | sort  : which shows what commands u used related sort
+man ls : it gives detail about ls command 
+bc  : it is a calculator we can do calculation 
+cal : it shows calender
+cal 2020 / cal jan 2020 : it shows 2020 year calender
+uptime : it shows how long u been in linx and howmany logged in 
+
+
+script : this command record  what u doing next all
+gzip -k filename :  it compress the file and (-k) means it create another compressed file 
+
+gunzip compressed filename : it decompress the file it give first one file 
+wget http download link :    it dowload the task 
+wgewt -o filename url : it download as what u gave the filename
+su : change the user name
+
